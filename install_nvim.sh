@@ -4,7 +4,7 @@
 # @email willyr.goncalves@gmail.com
 
 XDG_CONFIG_HOME="$HOME/.config/nvim"
-BASEDIR="$(dirname $0)"
+BASEDIR="$(dirname "$0")"
 REQUERIED_PROGRAMS="nvim git"
 NULL="/dev/null"
 
