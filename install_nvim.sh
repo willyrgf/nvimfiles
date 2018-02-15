@@ -13,7 +13,7 @@ _check_if_progms_installed ()
   [ -z "${REQUERIED_PROGRAMS}" ] && exit 1
 
   for p in ${REQUERIED_PROGRAMS}; do
-    if ! type "$p" 2&>1 $NULL ; then
+    if ! type "$p" >$NULL 2>&1 ; then
       echo "Program required: ${p} not found;"
       return 1
     fi
