@@ -24,7 +24,7 @@ _check_if_progms_installed ()
 _install_nvim()
 {
   [ ! -d "${XDG_CONFIG_HOME}" ] && mkdir -p "${XDG_CONFIG_HOME}"
-  mv "${BASEDIR}"/vimrcs/*.vim "${XDG_CONFIG_HOME}/"
+  cp -a "${BASEDIR}"/vimrcs/*.vim "${XDG_CONFIG_HOME}/"
   nvim +PlugInstall +qall
 }
 
