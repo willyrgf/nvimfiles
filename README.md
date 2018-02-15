@@ -1,6 +1,6 @@
 # Willy Romao's NeoVim Config
 
-Neovim configuration focused in basic programming (scripts) and services configuration like a nginx, asterisk, opensips and other services.
+Neovim configuration is focused in basic programming (scripts) and services configuration like a nginx, asterisk, opensips and other services.
 
 ## Install
 
