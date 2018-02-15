@@ -2,7 +2,7 @@
 
 Neovim configuration is focused in basic programming (scripts) and services configuration like a nginx, asterisk, opensips and other services.
 
-## Install
+## Install (Unix-like)
 
 ### Requirements (installed packages)
 - [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
