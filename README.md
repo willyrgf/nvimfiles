@@ -4,9 +4,9 @@ Neovim configuration focused in basic programming (scripts) and services configu
 
 ## Install
 
-### Requirements
-[neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
-git
+### Requirements (installed packages)
+- [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
+- [git](https://github.com/git/git/blob/master/INSTALL) or check git in your package manager
 
 ### Clone this repo
 ```sh
