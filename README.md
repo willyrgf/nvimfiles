@@ -1,8 +1,8 @@
 # Willy Romao's NeoVim Config
 
-Neovim configuration is focused in basic programming (scripts) and services configuration like a nginx, asterisk, opensips and other services.
+Neovim configuration is focused on basic programming (scripts) and services configuration like a nginx, asterisk, opensips and other services.
 
-## Install (Unix-like)
+## Install ([Unix-like](https://en.wikipedia.org/wiki/Unix-like))
 
 ### Requirements (installed packages)
 - [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
