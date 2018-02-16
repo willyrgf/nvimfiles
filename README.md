@@ -7,7 +7,7 @@ NeoVIM configuration is focused on basic programming (scripts) and services conf
 ### Requirements (installed packages)
 - [neovim](https://github.com/neovim/neovim/wiki/Installing-Neovim)
 - [git](https://github.com/git/git/blob/master/INSTALL) or check git in your package manager
-- [pip](https://pip.pypa.io/en/stable/installing/) or check git in your package manager
+- [pip](https://pip.pypa.io/en/stable/installing/) or check pip in your package manager
 
 ### Clone this repo
 ```sh
