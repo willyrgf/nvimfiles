@@ -32,7 +32,7 @@ let g:airline_powerline_fonts = 1
 let g:NERDTreeQuitOnOpen = 1
 
 " enable mouse use
-set mouse=a
+set mouse=r
 
 if !has('nvim')
     set ttymouse=xterm2
