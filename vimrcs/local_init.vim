@@ -174,6 +174,7 @@ endfunction
 map <Leader>vz :call VimuxZoomRunner()<CR>
 
 autocmd Filetype ruby setlocal ts=2 sts=2 sw=2
+autocmd Filetype sh,bash setlocal ts=2 sts=2 sw=2
 let g:rubycomplete_buffer_loading = 1
 let g:rubycomplete_classes_in_global = 1
 let g:rubycomplete_rails = 1
