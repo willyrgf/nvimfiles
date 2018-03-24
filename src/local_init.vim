@@ -238,3 +238,10 @@ au BufRead,BufNewFile /etc/nginx/*,/usr/local/nginx/conf/*,nginx.conf if &ft == 
 " OpenSIPS syntax highlights
 au BufNewFile,BufRead *opensips*.cfg,*.{os,osips,opensips} set filetype=opensips
 
+" backup
+set backup
+set backupdir=~/vim_bkp/
+let bkp = strftime("%y%m%d-%Hh%Mm%S")
+let bkp = "set backupext=_". bkp
+execute bkp
+
